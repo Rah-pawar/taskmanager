@@ -1,0 +1,43 @@
+body{
+  background-color:#2C3E50  
+  ;
+}
+.task-list {
+  background:#1B2631
+  ;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 400px;
+}
+
+.task{
+  background: #515A5A  ;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  padding: 5px 10px;
+  font-size: 12px;
+  margin-bottom: 6px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: start;
+  color:black;
+
+}
+
+.container{
+  position: absolute;
+  top:50%;
+  left: 50%;
+   transform: translate(-50%,-50%);
+   width:40%;
+
+}
+input{
+  background-color:#4D5656 ;
+  border: none;
+  color :white;
+  border-radius: 30px;
+  padding: 5px;
+  text-align: center;
+ width: 98%;
+ 
+}
